@@ -1,0 +1,17 @@
+# MolRepBench — runtime and training dependencies. Tested with Python 3.12.
+# The document-generation packages (python-pptx, python-docx, reportlab) are not needed here:
+# the report, deck and video script ship as finished files rather than being rebuilt.
+rdkit>=2024.3.1
+scikit-learn>=1.4
+xgboost>=2.0
+torch>=2.2
+torch_geometric>=2.5
+shap>=0.44
+streamlit>=1.33
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.0
+
+# Tests
+pytest>=8.0

@@ -1,0 +1,10 @@
+Model,Representation,ROC-AUC,PR-AUC,MCC
+RF + ecfp,ECFP4 fingerprint,0.943 ± 0.040,0.982 ± 0.012,0.706 ± 0.143
+RF + rdkit,RDKit descriptors,0.936 ± 0.052,0.977 ± 0.019,0.702 ± 0.182
+XGB + ecfp,ECFP4 fingerprint,0.916 ± 0.044,0.972 ± 0.012,0.621 ± 0.161
+XGB + rdkit,RDKit descriptors,0.936 ± 0.052,0.978 ± 0.015,0.684 ± 0.171
+DNN + ecfp,ECFP4 fingerprint,0.928 ± 0.037,0.974 ± 0.016,0.668 ± 0.157
+DNN + rdkit,RDKit descriptors,0.922 ± 0.064,0.974 ± 0.021,0.688 ± 0.180
+GCN + graph,Graph (GNN),0.940 ± 0.039,0.981 ± 0.011,0.678 ± 0.168
+GAT + graph,Graph (GNN),0.911 ± 0.045,0.969 ± 0.013,0.596 ± 0.064
+AttentiveFP + graph,Graph (GNN),0.928 ± 0.031,0.973 ± 0.009,0.680 ± 0.088

@@ -1,0 +1,5 @@
+dataset,metric,best_descriptor,descriptor_score,best_gnn,gnn_score,winner,absolute_gap,n_molecules
+tox21,roc_auc,RF:rdkit,0.838,AttentiveFP:graph,0.827,Descriptor,0.011,
+clintox,roc_auc,RF:ecfp,0.787,AttentiveFP:graph,0.7,Descriptor,0.087,
+bbbp,roc_auc,RF:ecfp,0.943,GCN:graph,0.94,Descriptor,0.004,
+esol,rmse,DNN:rdkit,0.803,AttentiveFP:graph,0.831,Descriptor,0.028,
